@@ -29,3 +29,11 @@ usage: docker run --rm uzyexe/weighttp <options> <url>
 
 example: docker run --rm uzyexe/weighttpd -n 10000 -c 10 -t 2 -k -H "User-Agent: foo" localhost/index.html
 ```
+
+# Authors
+
+* Shuji Yamada (<uzy.exe@gmail.com>)
+
+## License
+
+This project is licensed under the terms of the MIT license.
