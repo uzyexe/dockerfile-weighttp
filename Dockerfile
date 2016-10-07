@@ -1,7 +1,7 @@
 FROM debian:jessie
 
 ENV LIBEV_VERSION 4.22
-ENV WEIGHTTP_VERSION 0.3
+ENV WEIGHTTP_VERSION 0.4
 
 RUN apt-get update -qq && \
     apt-get install -qy curl build-essential python
