@@ -17,7 +17,7 @@ This Docker image is based on the official [debian:jessie](https://hub.docker.co
 ## How to use this image
 
 ```
-usage: docker run uzyexe/weighttp <options> <url>
+usage: docker run --rm uzyexe/weighttp <options> <url>
   -n num   number of requests    (mandatory)
   -t num   threadcount           (default: 1)
   -c num   concurrent clients    (default: 1)
@@ -27,5 +27,5 @@ usage: docker run uzyexe/weighttp <options> <url>
   -h       show help and exit
   -v       show version and exit
 
-example: docker run uzyexe/weighttpd -n 10000 -c 10 -t 2 -k -H "User-Agent: foo" localhost/index.html
+example: docker run --rm uzyexe/weighttpd -n 10000 -c 10 -t 2 -k -H "User-Agent: foo" localhost/index.html
 ```
