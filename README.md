@@ -27,7 +27,7 @@ usage: docker run --rm uzyexe/weighttp <options> <url>
   -h       show help and exit
   -v       show version and exit
 
-example: docker run --rm uzyexe/weighttpd -n 10000 -c 10 -t 2 -k -H "User-Agent: foo" localhost/index.html
+example: docker run --rm uzyexe/weighttp -n 10000 -c 10 -t 2 -k -H "User-Agent: foo" localhost/index.html
 ```
 
 # Authors
